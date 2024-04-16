@@ -205,9 +205,13 @@
                 <infrared1CameraInfoTopicName>infra1/camera_info</infrared1CameraInfoTopicName>
                 <infrared2TopicName>infra2/image_raw</infrared2TopicName>
                 <infrared2CameraInfoTopicName>infra2/camera_info</infrared2CameraInfoTopicName>
+                <depthOpticalframeName>camera_link</depthOpticalframeName>
+                <colorOpticalframeName>color</colorOpticalframeName>
+                <infrared1OpticalframeName>ired1</infrared1OpticalframeName>
+                <infrared2OpticalframeName>ired2</infrared2OpticalframeName>
                 <rangeMinDepth>0.2</rangeMinDepth>
                 <rangeMaxDepth>10.0</rangeMaxDepth>
-                <pointCloud>false</pointCloud>
+                <pointCloud>true</pointCloud>
                 <pointCloudTopicName>depth/points</pointCloudTopicName>
                 <pointCloudCutoff>0.5</pointCloudCutoff>
             </plugin>
