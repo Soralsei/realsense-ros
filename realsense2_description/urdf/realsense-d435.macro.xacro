@@ -205,7 +205,7 @@
                 <infrared1CameraInfoTopicName>infra1/camera_info</infrared1CameraInfoTopicName>
                 <infrared2TopicName>infra2/image_raw</infrared2TopicName>
                 <infrared2CameraInfoTopicName>infra2/camera_info</infrared2CameraInfoTopicName>
-                <depthOpticalframeName>camera_link</depthOpticalframeName>
+                <depthOpticalframeName>depth</depthOpticalframeName>
                 <colorOpticalframeName>color</colorOpticalframeName>
                 <infrared1OpticalframeName>ired1</infrared1OpticalframeName>
                 <infrared2OpticalframeName>ired2</infrared2OpticalframeName>
